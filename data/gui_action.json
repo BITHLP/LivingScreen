@@ -1,0 +1,1826 @@
+[
+  {
+    "task_id": "gui_like_1",
+    "instruction": "点赞当前视频",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_2",
+    "instruction": "点赞当前视频",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_3",
+    "instruction": "点赞当前视频",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_4",
+    "instruction": "帮我戳一下右边的那个爱心图标。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_5",
+    "instruction": "帮我戳一下右边的那个爱心图标。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_6",
+    "instruction": "帮我戳一下右边的那个爱心图标。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_7",
+    "instruction": "这个视频不错！帮我给它点个赞吧。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_8",
+    "instruction": "这个视频不错！帮我给它点个赞吧。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_9",
+    "instruction": "这个视频不错！帮我给它点个赞吧。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_10",
+    "instruction": "喜欢这个视频，帮我给它一个小心心。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_11",
+    "instruction": "喜欢这个视频，帮我给它一个小心心。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_12",
+    "instruction": "喜欢这个视频，帮我给它一个小心心。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_13",
+    "instruction": "内容质量很高，给作者点个赞。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_14",
+    "instruction": "内容质量很高，给作者点个赞。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_like_15",
+    "instruction": "内容质量很高，给作者点个赞。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_1",
+    "instruction": "帮我收藏一下这个视频。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_2",
+    "instruction": "帮我收藏一下这个视频。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_3",
+    "instruction": "帮我收藏一下这个视频。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_4",
+    "instruction": "把这个作品加入收藏夹。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_5",
+    "instruction": "把这个作品加入收藏夹。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_6",
+    "instruction": "把这个作品加入收藏夹。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_7",
+    "instruction": "点击收藏按钮。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_8",
+    "instruction": "点击收藏按钮。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_9",
+    "instruction": "点击收藏按钮。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_10",
+    "instruction": "戳一下那个五角星。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_11",
+    "instruction": "戳一下那个五角星。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_12",
+    "instruction": "戳一下那个五角星。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_13",
+    "instruction": "这个视频值得反复看，收藏一下。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_14",
+    "instruction": "这个视频值得反复看，收藏一下。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_15",
+    "instruction": "这个视频值得反复看，收藏一下。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_16",
+    "instruction": "把它放进我的收藏里，下次好找。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_17",
+    "instruction": "把它放进我的收藏里，下次好找。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_collect_18",
+    "instruction": "把它放进我的收藏里，下次好找。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_1",
+    "instruction": "帮我在评论区留言：“这个视频拍得真好！”",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "这个视频拍得真好！"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_2",
+    "instruction": "帮我在评论区留言：“这个视频拍得真好！”",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "这个视频拍得真好！"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_3",
+    "instruction": "帮我在评论区留言：“这个视频拍得真好！”",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "这个视频拍得真好！"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_4",
+    "instruction": "评论一下这段话：太实用了，感谢分享。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "太实用了，感谢分享。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_5",
+    "instruction": "评论一下这段话：太实用了，感谢分享。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "太实用了，感谢分享。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_6",
+    "instruction": "评论一下这段话：太实用了，感谢分享。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "太实用了，感谢分享。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_7",
+    "instruction": "点开评论框，输入：我也想要链接。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "我也想要链接。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_8",
+    "instruction": "点开评论框，输入：我也想要链接。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "我也想要链接。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_9",
+    "instruction": "点开评论框，输入：我也想要链接。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "我也想要链接。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_10",
+    "instruction": "帮我在输入框里回复：很有启发，赞一个。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "很有启发，赞一个。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_11",
+    "instruction": "帮我在输入框里回复：很有启发，赞一个。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "很有启发，赞一个。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_12",
+    "instruction": "帮我在输入框里回复：很有启发，赞一个。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "很有启发，赞一个。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_13",
+    "instruction": "内容挺有趣的，给作者留个言：加油，支持一下。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "加油，支持一下。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_14",
+    "instruction": "内容挺有趣的，给作者留个言：加油，支持一下。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "加油，支持一下。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_15",
+    "instruction": "内容挺有趣的，给作者留个言：加油，支持一下。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "加油，支持一下。"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_16",
+    "instruction": "戳一下评论图标，帮我打出：博主太强了！",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "博主太强了！"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_17",
+    "instruction": "戳一下评论图标，帮我打出：博主太强了！",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "博主太强了！"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_18",
+    "instruction": "戳一下评论图标，帮我打出：博主太强了！",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0, "comment": "博主太强了！"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_19",
+    "instruction": "帮我在评论区发点什么互动一下，支持一下作者。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_20",
+    "instruction": "帮我在评论区发点什么互动一下，支持一下作者。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_comment_21",
+    "instruction": "帮我在评论区发点什么互动一下，支持一下作者。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_comment",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_1",
+    "instruction": "帮我举报一下这个视频。",
+    "video_feed": [
+      "FakeSV/6590972352731811075",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_2",
+    "instruction": "帮我举报一下这个视频。",
+    "video_feed": [
+      "FakeSV/6977225430944255244",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_3",
+    "instruction": "帮我举报一下这个视频。",
+    "video_feed": [
+      "FakeSV/6749010896951020808",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_4",
+    "instruction": "投诉这个作品，太低俗了",
+    "video_feed": [
+      "FakeSV/6590972352731811075",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "色情低俗"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_5",
+    "instruction": "投诉这个作品，太低俗了",
+    "video_feed": [
+      "FakeSV/6977225430944255244",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "色情低俗"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_6",
+    "instruction": "投诉这个作品，太低俗了",
+    "video_feed": [
+      "FakeSV/6749010896951020808",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "色情低俗"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_7",
+    "instruction": "向平台反馈这个暴力内容。",
+    "video_feed": [
+      "FakeSV/6590972352731811075",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "血腥暴力"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_8",
+    "instruction": "向平台反馈这个暴力内容。",
+    "video_feed": [
+      "FakeSV/6977225430944255244",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "血腥暴力"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_9",
+    "instruction": "向平台反馈这个暴力内容。",
+    "video_feed": [
+      "FakeSV/6749010896951020808",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "血腥暴力"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_10",
+    "instruction": "点击右侧的举报菜单，理由是色情低俗。",
+    "video_feed": [
+      "FakeSV/6590972352731811075",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "色情低俗"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_11",
+    "instruction": "点击右侧的举报菜单，理由是色情低俗。",
+    "video_feed": [
+      "FakeSV/6977225430944255244",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "色情低俗"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_12",
+    "instruction": "点击右侧的举报菜单，理由是色情低俗。",
+    "video_feed": [
+      "FakeSV/6749010896951020808",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "色情低俗"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_13",
+    "instruction": "帮我举报这个虚假广告。",
+    "video_feed": [
+      "FakeSV/6590972352731811075",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "虚假营销"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_14",
+    "instruction": "帮我举报这个虚假广告。",
+    "video_feed": [
+      "FakeSV/6977225430944255244",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "虚假营销"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_15",
+    "instruction": "帮我举报这个虚假广告。",
+    "video_feed": [
+      "FakeSV/6749010896951020808",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "虚假营销"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_16",
+    "instruction": "这个视频有问题，帮我投诉不实信息，理由写“它引起了我的不适”。",
+    "video_feed": [
+      "FakeSV/6590972352731811075",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "不实信息", "expected_reason": "它引起了我的不适"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_17",
+    "instruction": "这个视频有问题，帮我投诉不实信息，理由写“它引起了我的不适”。",
+    "video_feed": [
+      "FakeSV/6977225430944255244",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "不实信息", "expected_reason": "它引起了我的不适"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_report_18",
+    "instruction": "这个视频有问题，帮我投诉不实信息，理由写“它引起了我的不适”。",
+    "video_feed": [
+      "FakeSV/6749010896951020808",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {"video_ids": 0, "expected_cat": "不实信息", "expected_reason": "它引起了我的不适"}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_1",
+    "instruction": "刷到下一个视频。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_2",
+    "instruction": "刷到下一个视频。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_3",
+    "instruction": "刷到下一个视频。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_4",
+    "instruction": "往下滑一个。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_5",
+    "instruction": "往下滑一个。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_6",
+    "instruction": "往下滑一个。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_7",
+    "instruction": "切到第三个作品。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_8",
+    "instruction": "切到第三个作品。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_9",
+    "instruction": "切到第三个作品。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_10",
+    "instruction": "连续翻两页。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_11",
+    "instruction": "连续翻两页。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_12",
+    "instruction": "连续翻两页。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_13",
+    "instruction": "这个看完了，换下一个。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_14",
+    "instruction": "这个看完了，换下一个。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_15",
+    "instruction": "这个看完了，换下一个。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 1}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_16",
+    "instruction": "刷一下，看一看下下个视频是什么。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_17",
+    "instruction": "刷一下，看一看下下个视频是什么。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_18",
+    "instruction": "刷一下，看一看下下个视频是什么。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_19",
+    "instruction": "连续刷动两次，停在第二个视频。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_20",
+    "instruction": "连续刷动两次，停在第二个视频。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_swipe_21",
+    "instruction": "连续刷动两次，停在第二个视频。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_current_video",
+        "args": {"video_id": 2}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_1",
+    "instruction": "在视频首帧暂停住。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_2",
+    "instruction": "在视频首帧暂停住。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_3",
+    "instruction": "在视频首帧暂停住。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_4",
+    "instruction": "帮我把视频停在最开始，我回来慢慢看。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_5",
+    "instruction": "帮我把视频停在最开始，我回来慢慢看。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_6",
+    "instruction": "帮我把视频停在最开始，我回来慢慢看。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_7",
+    "instruction": "在视频第 10 秒的时候停一下。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_sec": 10.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_8",
+    "instruction": "在视频第 10 秒的时候停一下。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_sec": 10.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_9",
+    "instruction": "在视频第 10 秒的时候停一下。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_sec": 10.0}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_10",
+    "instruction": "视频进度在一半（50%）的时候停住。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.5}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_11",
+    "instruction": "视频进度在一半（50%）的时候停住。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.5}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_12",
+    "instruction": "视频进度在一半（50%）的时候停住。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.5}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_13",
+    "instruction": "进度条拉到四分之三的地方帮我暂停。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.75}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_14",
+    "instruction": "进度条拉到四分之三的地方帮我暂停。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.75}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_15",
+    "instruction": "进度条拉到四分之三的地方帮我暂停。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.75}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_16",
+    "instruction": "帮我在视频快结束（90%）的地方暂停播放。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.9}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_17",
+    "instruction": "帮我在视频快结束（90%）的地方暂停播放。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.9}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_18",
+    "instruction": "帮我在视频快结束（90%）的地方暂停播放。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.9}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_19",
+    "instruction": "看一下进度条，在中点的地方戳一下，让它暂停在中间。",
+    "video_feed": [
+      "FakeSV/6671891732524829965",
+      "FakeSV/3xd2pmsy6jz5t64",
+      "FakeSV/7023245555539184931"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.5}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_20",
+    "instruction": "看一下进度条，在中点的地方戳一下，让它暂停在中间。",
+    "video_feed": [
+      "FakeSV/3xgb698hr5jsyq9",
+      "FakeSV/6821104150999272719",
+      "FakeSV/6983461700552953126"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.5}
+      }
+    ]
+  },
+  {
+    "task_id": "gui_temporal_pause_21",
+    "instruction": "看一下进度条，在中点的地方戳一下，让它暂停在中间。",
+    "video_feed": [
+      "FakeSV/6995042411118333215",
+      "FakeSV/6753918581664140558",
+      "FakeSV/7033779180982603049"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_playback",
+        "args": {"video_id": 0, "target_pct": 0.5}
+      }
+    ]
+  }
+]

@@ -1,0 +1,2429 @@
+[
+  {
+    "task_id": "preference_1",
+    "instruction": "我是飞机发烧友。我需要整理一些真实飞机事故或风险情景的视频，加入到幻灯片中，用以给同好分享。请你浏览以下 10 个视频，收藏其中我用得到的。",
+    "video_feed": [
+      "LiveBot/airplane/【光速还原】国外网友用X-Plane11模拟西雅图冲8飞机被偷坠毁事件",
+      "LiveBot/airplane/波音747台风中降落，开飞机真不是一般人的活！",
+      "LiveBot/airplane/川航飞机急速下坠，温暖的他抱着女朋友安抚，感恩机长，感谢有你",
+      "LiveBot/airplane/飞机落地时起落架发生了什么？慢动作重现飞机接地瞬间",
+      "LiveBot/airplane/飞机上的黑匣子到底有多坚固",
+      "LiveBot/airplane/飞机在天上偶遇暴风雨，男子打窗户一看，吓得口吐白沫倒地不醒",
+      "LiveBot/airplane/美国西雅图机场一架飞机“被偷了”~",
+      "LiveBot/airplane/新飞机“突击部队”你所不知道的6个小细节！",
+      "LiveBot/airplane/愿逝者安息，10个飞机事故合集 丨 Top 10 Aircraft Crashes",
+      "LiveBot/airplane/战雷飞机还能倒着开？"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [1, 2, 6, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_2",
+    "instruction": "我是飞机发烧友。我需要整理一些真实飞机事故或风险情景的视频，加入到幻灯片中，用以给同好分享。请你浏览以下 10 个视频，点赞其中我用得到的。",
+    "video_feed": [
+      "LiveBot/airplane/【光速还原】国外网友用X-Plane11模拟西雅图冲8飞机被偷坠毁事件",
+      "LiveBot/airplane/波音747台风中降落，开飞机真不是一般人的活！",
+      "LiveBot/airplane/川航飞机急速下坠，温暖的他抱着女朋友安抚，感恩机长，感谢有你",
+      "LiveBot/airplane/飞机落地时起落架发生了什么？慢动作重现飞机接地瞬间",
+      "LiveBot/airplane/飞机上的黑匣子到底有多坚固",
+      "LiveBot/airplane/飞机在天上偶遇暴风雨，男子打窗户一看，吓得口吐白沫倒地不醒",
+      "LiveBot/airplane/美国西雅图机场一架飞机“被偷了”~",
+      "LiveBot/airplane/新飞机“突击部队”你所不知道的6个小细节！",
+      "LiveBot/airplane/愿逝者安息，10个飞机事故合集 丨 Top 10 Aircraft Crashes",
+      "LiveBot/airplane/战雷飞机还能倒着开？"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 2, 6, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_3",
+    "instruction": "我开始对飞机有点感兴趣了。请你帮我刷 10 条视频，收藏其中所有关于真实飞机的任何方面的科普视频，我之后学习学习。",
+    "video_feed": [
+      "LiveBot/airplane/“飞机”一样的卡丁车，装12个涵道发动机，比跑车还快，41万买吗",
+      "LiveBot/airplane/「chillin」翻包2.0 我上飞机的包包里都带了些什么 what&#39;s in my bag 出行准备",
+      "LiveBot/airplane/川航飞机急速下坠，温暖的他抱着女朋友安抚，感恩机长，感谢有你",
+      "LiveBot/airplane/第一次坐飞机，请问空姐可以打包带走吗？",
+      "LiveBot/airplane/当你在飞机上放领袖的发言【打工是不可能打工的】",
+      "LiveBot/airplane/飞机上的黑匣子到底有多坚固",
+      "LiveBot/airplane/飞机在天上偶遇暴风雨，男子打窗户一看，吓得口吐白沫倒地不醒",
+      "LiveBot/airplane/飞机上的排泄物怎么处理的，直接从高空抛下去了吗？看完长知识了",
+      "LiveBot/airplane/新飞机“突击部队”你所不知道的6个小细节！",
+      "LiveBot/airplane/战雷飞机还能倒着开？"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [5, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_4",
+    "instruction": "我开始对飞机有点感兴趣了。请你帮我刷 10 条视频，点赞其中所有关于真实飞机的任何方面的科普视频，我之后学习学习。",
+    "video_feed": [
+      "LiveBot/airplane/“飞机”一样的卡丁车，装12个涵道发动机，比跑车还快，41万买吗",
+      "LiveBot/airplane/「chillin」翻包2.0 我上飞机的包包里都带了些什么 what&#39;s in my bag 出行准备",
+      "LiveBot/airplane/川航飞机急速下坠，温暖的他抱着女朋友安抚，感恩机长，感谢有你",
+      "LiveBot/airplane/第一次坐飞机，请问空姐可以打包带走吗？",
+      "LiveBot/airplane/当你在飞机上放领袖的发言【打工是不可能打工的】",
+      "LiveBot/airplane/飞机上的黑匣子到底有多坚固",
+      "LiveBot/airplane/飞机在天上偶遇暴风雨，男子打窗户一看，吓得口吐白沫倒地不醒",
+      "LiveBot/airplane/飞机上的排泄物怎么处理的，直接从高空抛下去了吗？看完长知识了",
+      "LiveBot/airplane/新飞机“突击部队”你所不知道的6个小细节！",
+      "LiveBot/airplane/战雷飞机还能倒着开？"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [5, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_5",
+    "instruction": "我喜欢飞机。请在以下 10 个视频中，帮我收藏各种各样的真实飞机的视频。",
+    "video_feed": [
+      "LiveBot/airplane/“飞机”一样的卡丁车，装12个涵道发动机，比跑车还快，41万买吗",
+      "LiveBot/airplane/38万人民币的直升飞机",
+      "LiveBot/airplane/波音747台风中降落，开飞机真不是一般人的活！",
+      "LiveBot/airplane/飞机落地时起落架发生了什么？慢动作重现飞机接地瞬间",
+      "LiveBot/airplane/当你在飞机上放领袖的发言【打工是不可能打工的】",
+      "LiveBot/airplane/飞机起飞推力有多大，雨天最能展现他的威力",
+      "LiveBot/airplane/用第三人称视角告诉你飞机停稳后下机前地勤在干嘛",
+      "LiveBot/airplane/愿逝者安息，10个飞机事故合集 丨 Top 10 Aircraft Crashes",
+      "LiveBot/airplane/战雷飞机还能倒着开？",
+      "LiveBot/airplane/LOL小孩：S2的时候我飞机和EZ国服第一，当时还有人专门给我出视频！"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [1, 2, 3, 5, 6, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_6",
+    "instruction": "我喜欢飞机。请在以下 10 个视频中，帮我点赞各种各样的真实飞机的视频。",
+    "video_feed": [
+      "LiveBot/airplane/“飞机”一样的卡丁车，装12个涵道发动机，比跑车还快，41万买吗",
+      "LiveBot/airplane/38万人民币的直升飞机",
+      "LiveBot/airplane/波音747台风中降落，开飞机真不是一般人的活！",
+      "LiveBot/airplane/飞机落地时起落架发生了什么？慢动作重现飞机接地瞬间",
+      "LiveBot/airplane/当你在飞机上放领袖的发言【打工是不可能打工的】",
+      "LiveBot/airplane/飞机起飞推力有多大，雨天最能展现他的威力",
+      "LiveBot/airplane/用第三人称视角告诉你飞机停稳后下机前地勤在干嘛",
+      "LiveBot/airplane/愿逝者安息，10个飞机事故合集 丨 Top 10 Aircraft Crashes",
+      "LiveBot/airplane/战雷飞机还能倒着开？",
+      "LiveBot/airplane/LOL小孩：S2的时候我飞机和EZ国服第一，当时还有人专门给我出视频！"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 2, 3, 5, 6, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_7",
+    "instruction": "我在练习舞台魔术。帮我刷 10 条视频，收藏所有舞台魔术的视频，供我之后学习。",
+    "video_feed": [
+      "LiveBot/magic/ 吓尿了！魔术失败出人命了！",
+      "LiveBot/magic/【地铁恶作剧】魔术师用烟圈恶搞路人",
+      "LiveBot/magic/教你一招简单易学的小魔术，学会后随时随地都能表演",
+      "LiveBot/magic/[SCI谜案集 赵祯X白驰]    口嫌体正小警察X护妻狂魔魔术师",
+      "LiveBot/magic/【鱼干君】中国小伙无遮挡表演魔术，主持人目瞪口呆",
+      "LiveBot/magic/【魔术师】最暖心的魔术，为流浪汉送去温暖",
+      "LiveBot/magic/空手悬浮一瓶水，一个随时随地都可以表演的魔术",
+      "LiveBot/magic/逆战桃花：再临大都会魔术师最新的无敌点位",
+      "LiveBot/magic/魔术大神Will Tsai二次登上美国达人秀舞台看呆评委（中文字幕）",
+      "LiveBot/magic/魔术师教你花式整蛊路人"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [0, 4, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_8",
+    "instruction": "我在练习舞台魔术。帮我刷 10 条视频，点赞所有舞台魔术的视频，供我之后学习。",
+    "video_feed": [
+      "LiveBot/magic/ 吓尿了！魔术失败出人命了！",
+      "LiveBot/magic/【地铁恶作剧】魔术师用烟圈恶搞路人",
+      "LiveBot/magic/教你一招简单易学的小魔术，学会后随时随地都能表演",
+      "LiveBot/magic/[SCI谜案集 赵祯X白驰]    口嫌体正小警察X护妻狂魔魔术师",
+      "LiveBot/magic/【鱼干君】中国小伙无遮挡表演魔术，主持人目瞪口呆",
+      "LiveBot/magic/【魔术师】最暖心的魔术，为流浪汉送去温暖",
+      "LiveBot/magic/空手悬浮一瓶水，一个随时随地都可以表演的魔术",
+      "LiveBot/magic/逆战桃花：再临大都会魔术师最新的无敌点位",
+      "LiveBot/magic/魔术大神Will Tsai二次登上美国达人秀舞台看呆评委（中文字幕）",
+      "LiveBot/magic/魔术师教你花式整蛊路人"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 4, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_9",
+    "instruction": "我在练习街头魔术。帮我刷 10 条视频，收藏所有街头魔术的视频，供我之后学习。",
+    "video_feed": [
+      "LiveBot/magic/ 吓尿了！魔术失败出人命了！",
+      "LiveBot/magic/【地铁恶作剧】魔术师用烟圈恶搞路人",
+      "LiveBot/magic/教你一招简单易学的小魔术，学会后随时随地都能表演",
+      "LiveBot/magic/[SCI谜案集 赵祯X白驰]    口嫌体正小警察X护妻狂魔魔术师",
+      "LiveBot/magic/【鱼干君】中国小伙无遮挡表演魔术，主持人目瞪口呆",
+      "LiveBot/magic/【魔术师】最暖心的魔术，为流浪汉送去温暖",
+      "LiveBot/magic/空手悬浮一瓶水，一个随时随地都可以表演的魔术",
+      "LiveBot/magic/逆战桃花：再临大都会魔术师最新的无敌点位",
+      "LiveBot/magic/魔术大神Will Tsai二次登上美国达人秀舞台看呆评委（中文字幕）",
+      "LiveBot/magic/魔术师教你花式整蛊路人"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [1, 5, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_10",
+    "instruction": "我在练习街头魔术。帮我刷 10 条视频，点赞所有街头魔术的视频，供我之后学习。",
+    "video_feed": [
+      "LiveBot/magic/ 吓尿了！魔术失败出人命了！",
+      "LiveBot/magic/【地铁恶作剧】魔术师用烟圈恶搞路人",
+      "LiveBot/magic/教你一招简单易学的小魔术，学会后随时随地都能表演",
+      "LiveBot/magic/[SCI谜案集 赵祯X白驰]    口嫌体正小警察X护妻狂魔魔术师",
+      "LiveBot/magic/【鱼干君】中国小伙无遮挡表演魔术，主持人目瞪口呆",
+      "LiveBot/magic/【魔术师】最暖心的魔术，为流浪汉送去温暖",
+      "LiveBot/magic/空手悬浮一瓶水，一个随时随地都可以表演的魔术",
+      "LiveBot/magic/逆战桃花：再临大都会魔术师最新的无敌点位",
+      "LiveBot/magic/魔术大神Will Tsai二次登上美国达人秀舞台看呆评委（中文字幕）",
+      "LiveBot/magic/魔术师教你花式整蛊路人"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 5, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_11",
+    "instruction": "我在练近景魔术。帮我刷 10 条视频，收藏所有近景魔术的视频，供我之后学习。",
+    "video_feed": [
+      "LiveBot/magic/ 吓尿了！魔术失败出人命了！",
+      "LiveBot/magic/【地铁恶作剧】魔术师用烟圈恶搞路人",
+      "LiveBot/magic/教你一招简单易学的小魔术，学会后随时随地都能表演",
+      "LiveBot/magic/[SCI谜案集 赵祯X白驰]    口嫌体正小警察X护妻狂魔魔术师",
+      "LiveBot/magic/【鱼干君】中国小伙无遮挡表演魔术，主持人目瞪口呆",
+      "LiveBot/magic/【魔术师】最暖心的魔术，为流浪汉送去温暖",
+      "LiveBot/magic/空手悬浮一瓶水，一个随时随地都可以表演的魔术",
+      "LiveBot/magic/逆战桃花：再临大都会魔术师最新的无敌点位",
+      "LiveBot/magic/魔术大神Will Tsai二次登上美国达人秀舞台看呆评委（中文字幕）",
+      "LiveBot/magic/魔术师教你花式整蛊路人"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [2, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_12",
+    "instruction": "我在练近景魔术。帮我刷 10 条视频，点赞所有近景魔术的视频，供我之后学习。",
+    "video_feed": [
+      "LiveBot/magic/ 吓尿了！魔术失败出人命了！",
+      "LiveBot/magic/【地铁恶作剧】魔术师用烟圈恶搞路人",
+      "LiveBot/magic/教你一招简单易学的小魔术，学会后随时随地都能表演",
+      "LiveBot/magic/[SCI谜案集 赵祯X白驰]    口嫌体正小警察X护妻狂魔魔术师",
+      "LiveBot/magic/【鱼干君】中国小伙无遮挡表演魔术，主持人目瞪口呆",
+      "LiveBot/magic/【魔术师】最暖心的魔术，为流浪汉送去温暖",
+      "LiveBot/magic/空手悬浮一瓶水，一个随时随地都可以表演的魔术",
+      "LiveBot/magic/逆战桃花：再临大都会魔术师最新的无敌点位",
+      "LiveBot/magic/魔术大神Will Tsai二次登上美国达人秀舞台看呆评委（中文字幕）",
+      "LiveBot/magic/魔术师教你花式整蛊路人"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [2, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_13",
+    "instruction": "以下 10 条视频中，请帮我收藏所有男生的化妆分享和教程。",
+    "video_feed": [
+      "LiveBot/make-up/【10秒变帅合集】猥琐直男秒变小鲜肉！大欢的快速化妆合集来啦！",
+      "LiveBot/make-up/【八里】slay断腿的迪厅妆容你就是舞池上的superstar",
+      "LiveBot/make-up/【柒叶】气场打造 双重妆容教程",
+      "LiveBot/make-up/【晴晴】=毕方=愿为君顾，敛翅沉吟《山海经·西山经》",
+      "LiveBot/make-up/【超强素人改造】宅男变身道明寺王鹤棣！！宅男都是潜力股？前后对比吓skr 人！",
+      "LiveBot/make-up/【YouTube】这个大叔又来了！还是中国整容式化妆。",
+      "LiveBot/make-up/城会玩！当小罗、博格巴和C罗化妆成普通人，群众的反映亮了",
+      "LiveBot/make-up/【独门美妆秘籍】 新手化妆起步阶段常见的9大问题和困扰 迅速帮助你渡过新手期！",
+      "LiveBot/make-up/【八里】直男伪素颜妆容单品不超过100块穷男孩也可以学起来日常出门妆容",
+      "LiveBot/make-up/【德德美妆】苦逼的无唇形星人画M字唇 唇妆画法 不务正业的up主请了廉价旁白外援只求不掉粉"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [0, 1, 4, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_14",
+    "instruction": "以下 10 条视频中，请帮我点赞所有男生的化妆分享和教程。",
+    "video_feed": [
+      "LiveBot/make-up/【10秒变帅合集】猥琐直男秒变小鲜肉！大欢的快速化妆合集来啦！",
+      "LiveBot/make-up/【八里】slay断腿的迪厅妆容你就是舞池上的superstar",
+      "LiveBot/make-up/【柒叶】气场打造 双重妆容教程",
+      "LiveBot/make-up/【晴晴】=毕方=愿为君顾，敛翅沉吟《山海经·西山经》",
+      "LiveBot/make-up/【超强素人改造】宅男变身道明寺王鹤棣！！宅男都是潜力股？前后对比吓skr 人！",
+      "LiveBot/make-up/【YouTube】这个大叔又来了！还是中国整容式化妆。",
+      "LiveBot/make-up/城会玩！当小罗、博格巴和C罗化妆成普通人，群众的反映亮了",
+      "LiveBot/make-up/【独门美妆秘籍】 新手化妆起步阶段常见的9大问题和困扰 迅速帮助你渡过新手期！",
+      "LiveBot/make-up/【八里】直男伪素颜妆容单品不超过100块穷男孩也可以学起来日常出门妆容",
+      "LiveBot/make-up/【德德美妆】苦逼的无唇形星人画M字唇 唇妆画法 不务正业的up主请了廉价旁白外援只求不掉粉"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 4, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_15",
+    "instruction": "以下 10 条视频中，请帮我收藏所有女生的化妆分享和教程。",
+    "video_feed": [
+      "LiveBot/make-up/【缪酱试戴日志】非日常向！勇敢尝试独角兽美瞳！这脏脏色你会pick吗？",
+      "LiveBot/make-up/【八里】slay断腿的迪厅妆容你就是舞池上的superstar",
+      "LiveBot/make-up/【柒叶】气场打造 双重妆容教程",
+      "LiveBot/make-up/【晴晴】=毕方=愿为君顾，敛翅沉吟《山海经·西山经》",
+      "LiveBot/make-up/【超强素人改造】宅男变身道明寺王鹤棣！！宅男都是潜力股？前后对比吓skr 人！",
+      "LiveBot/make-up/【第五人格】(遗照组)入殓师我真的不是化妆的",
+      "LiveBot/make-up/城会玩！当小罗、博格巴和C罗化妆成普通人，群众的反映亮了",
+      "LiveBot/make-up/【独门美妆秘籍】 新手化妆起步阶段常见的9大问题和困扰 迅速帮助你渡过新手期！",
+      "LiveBot/make-up/【八里】直男伪素颜妆容单品不超过100块穷男孩也可以学起来日常出门妆容",
+      "LiveBot/make-up/【德德美妆】苦逼的无唇形星人画M字唇 唇妆画法 不务正业的up主请了廉价旁白外援只求不掉粉"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [0, 2, 3, 7, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_16",
+    "instruction": "以下 10 条视频中，请帮我点赞所有女生的化妆分享和教程。",
+    "video_feed": [
+      "LiveBot/make-up/【缪酱试戴日志】非日常向！勇敢尝试独角兽美瞳！这脏脏色你会pick吗？",
+      "LiveBot/make-up/【八里】slay断腿的迪厅妆容你就是舞池上的superstar",
+      "LiveBot/make-up/【柒叶】气场打造 双重妆容教程",
+      "LiveBot/make-up/【晴晴】=毕方=愿为君顾，敛翅沉吟《山海经·西山经》",
+      "LiveBot/make-up/【超强素人改造】宅男变身道明寺王鹤棣！！宅男都是潜力股？前后对比吓skr 人！",
+      "LiveBot/make-up/【第五人格】(遗照组)入殓师我真的不是化妆的",
+      "LiveBot/make-up/城会玩！当小罗、博格巴和C罗化妆成普通人，群众的反映亮了",
+      "LiveBot/make-up/【独门美妆秘籍】 新手化妆起步阶段常见的9大问题和困扰 迅速帮助你渡过新手期！",
+      "LiveBot/make-up/【八里】直男伪素颜妆容单品不超过100块穷男孩也可以学起来日常出门妆容",
+      "LiveBot/make-up/【德德美妆】苦逼的无唇形星人画M字唇 唇妆画法 不务正业的up主请了廉价旁白外援只求不掉粉"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 2, 3, 7, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_17",
+    "instruction": "刷 12 条视频，收藏所有火影忍者手游相关的视频。",
+    "video_feed": [
+      "LiveBot/naruto/【火影忍者】水门：儿子，你这地走不行啊。水门让二穿三秀",
+      "LiveBot/naruto/[回顾火影经典战役]鼬神VS长门完整燃向：瞳术的战斗，面对地爆天星，鼬神一点也不慌！",
+      "LiveBot/naruto/【火影忍者】其实..我该说对不起",
+      "LiveBot/naruto/【高光时刻】QG猫神火影级元歌火之意志carry全场：移行换位十步杀一人你看的清他的操作吗？",
+      "LiveBot/naruto/《火影黑科技》熊猫+霸体+比叔。就是莽！",
+      "LiveBot/naruto/《火影》里的这位妹子要给鸣人生孩子 鸣人答应了？",
+      "LiveBot/naruto/［火影忍者］那个叫自来也的男人死了（真的哭了）",
+      "LiveBot/naruto/【莫邪】300英雄鸣人重做，这才是七代目火影",
+      "LiveBot/naruto/【火影忍者】秋某人告诉你，鹰佐有多么得变态",
+      "LiveBot/naruto/《火影》里一直没什么用的悲催瞳术 终极形态居然堪比轮回眼！",
+      "LiveBot/naruto/「燃向」第四代火影，参上！",
+      "LiveBot/naruto/LOL：刺客之道，骚男火影劫的骚气击杀秀"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [0, 4, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_18",
+    "instruction": "刷 12 条视频，点赞所有火影忍者手游相关的视频。",
+    "video_feed": [
+      "LiveBot/naruto/【火影忍者】水门：儿子，你这地走不行啊。水门让二穿三秀",
+      "LiveBot/naruto/[回顾火影经典战役]鼬神VS长门完整燃向：瞳术的战斗，面对地爆天星，鼬神一点也不慌！",
+      "LiveBot/naruto/【火影忍者】其实..我该说对不起",
+      "LiveBot/naruto/【高光时刻】QG猫神火影级元歌火之意志carry全场：移行换位十步杀一人你看的清他的操作吗？",
+      "LiveBot/naruto/《火影黑科技》熊猫+霸体+比叔。就是莽！",
+      "LiveBot/naruto/《火影》里的这位妹子要给鸣人生孩子 鸣人答应了？",
+      "LiveBot/naruto/［火影忍者］那个叫自来也的男人死了（真的哭了）",
+      "LiveBot/naruto/【莫邪】300英雄鸣人重做，这才是七代目火影",
+      "LiveBot/naruto/【火影忍者】秋某人告诉你，鹰佐有多么得变态",
+      "LiveBot/naruto/《火影》里一直没什么用的悲催瞳术 终极形态居然堪比轮回眼！",
+      "LiveBot/naruto/「燃向」第四代火影，参上！",
+      "LiveBot/naruto/LOL：刺客之道，骚男火影劫的骚气击杀秀"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 4, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_19",
+    "instruction": "刷 12 条视频，收藏所有火影动画剧情回顾和讲解。",
+    "video_feed": [
+      "LiveBot/naruto/【火影忍者】水门：儿子，你这地走不行啊。水门让二穿三秀",
+      "LiveBot/naruto/[回顾火影经典战役]鼬神VS长门完整燃向：瞳术的战斗，面对地爆天星，鼬神一点也不慌！",
+      "LiveBot/naruto/【火影忍者】其实..我该说对不起",
+      "LiveBot/naruto/【高光时刻】QG猫神火影级元歌火之意志carry全场：移行换位十步杀一人你看的清他的操作吗？",
+      "LiveBot/naruto/《火影黑科技》熊猫+霸体+比叔。就是莽！",
+      "LiveBot/naruto/《火影》里的这位妹子要给鸣人生孩子 鸣人答应了？",
+      "LiveBot/naruto/［火影忍者］那个叫自来也的男人死了（真的哭了）",
+      "LiveBot/naruto/【莫邪】300英雄鸣人重做，这才是七代目火影",
+      "LiveBot/naruto/【火影忍者】秋某人告诉你，鹰佐有多么得变态",
+      "LiveBot/naruto/《火影》里一直没什么用的悲催瞳术 终极形态居然堪比轮回眼！",
+      "LiveBot/naruto/「燃向」第四代火影，参上！",
+      "LiveBot/naruto/LOL：刺客之道，骚男火影劫的骚气击杀秀"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [1, 5, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_20",
+    "instruction": "刷 12 条视频，点赞所有火影动画剧情回顾和讲解。",
+    "video_feed": [
+      "LiveBot/naruto/【火影忍者】水门：儿子，你这地走不行啊。水门让二穿三秀",
+      "LiveBot/naruto/[回顾火影经典战役]鼬神VS长门完整燃向：瞳术的战斗，面对地爆天星，鼬神一点也不慌！",
+      "LiveBot/naruto/【火影忍者】其实..我该说对不起",
+      "LiveBot/naruto/【高光时刻】QG猫神火影级元歌火之意志carry全场：移行换位十步杀一人你看的清他的操作吗？",
+      "LiveBot/naruto/《火影黑科技》熊猫+霸体+比叔。就是莽！",
+      "LiveBot/naruto/《火影》里的这位妹子要给鸣人生孩子 鸣人答应了？",
+      "LiveBot/naruto/［火影忍者］那个叫自来也的男人死了（真的哭了）",
+      "LiveBot/naruto/【莫邪】300英雄鸣人重做，这才是七代目火影",
+      "LiveBot/naruto/【火影忍者】秋某人告诉你，鹰佐有多么得变态",
+      "LiveBot/naruto/《火影》里一直没什么用的悲催瞳术 终极形态居然堪比轮回眼！",
+      "LiveBot/naruto/「燃向」第四代火影，参上！",
+      "LiveBot/naruto/LOL：刺客之道，骚男火影劫的骚气击杀秀"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 5, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_21",
+    "instruction": "刷 12 条视频，收藏所有火影忍者混剪。",
+    "video_feed": [
+      "LiveBot/naruto/【火影忍者】水门：儿子，你这地走不行啊。水门让二穿三秀",
+      "LiveBot/naruto/[回顾火影经典战役]鼬神VS长门完整燃向：瞳术的战斗，面对地爆天星，鼬神一点也不慌！",
+      "LiveBot/naruto/【火影忍者】其实..我该说对不起",
+      "LiveBot/naruto/【高光时刻】QG猫神火影级元歌火之意志carry全场：移行换位十步杀一人你看的清他的操作吗？",
+      "LiveBot/naruto/《火影黑科技》熊猫+霸体+比叔。就是莽！",
+      "LiveBot/naruto/《火影》里的这位妹子要给鸣人生孩子 鸣人答应了？",
+      "LiveBot/naruto/［火影忍者］那个叫自来也的男人死了（真的哭了）",
+      "LiveBot/naruto/【莫邪】300英雄鸣人重做，这才是七代目火影",
+      "LiveBot/naruto/【火影忍者】秋某人告诉你，鹰佐有多么得变态",
+      "LiveBot/naruto/《火影》里一直没什么用的悲催瞳术 终极形态居然堪比轮回眼！",
+      "LiveBot/naruto/「燃向」第四代火影，参上！",
+      "LiveBot/naruto/LOL：刺客之道，骚男火影劫的骚气击杀秀"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [2, 6, 10]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_22",
+    "instruction": "刷 12 条视频，点赞所有火影忍者混剪。",
+    "video_feed": [
+      "LiveBot/naruto/【火影忍者】水门：儿子，你这地走不行啊。水门让二穿三秀",
+      "LiveBot/naruto/[回顾火影经典战役]鼬神VS长门完整燃向：瞳术的战斗，面对地爆天星，鼬神一点也不慌！",
+      "LiveBot/naruto/【火影忍者】其实..我该说对不起",
+      "LiveBot/naruto/【高光时刻】QG猫神火影级元歌火之意志carry全场：移行换位十步杀一人你看的清他的操作吗？",
+      "LiveBot/naruto/《火影黑科技》熊猫+霸体+比叔。就是莽！",
+      "LiveBot/naruto/《火影》里的这位妹子要给鸣人生孩子 鸣人答应了？",
+      "LiveBot/naruto/［火影忍者］那个叫自来也的男人死了（真的哭了）",
+      "LiveBot/naruto/【莫邪】300英雄鸣人重做，这才是七代目火影",
+      "LiveBot/naruto/【火影忍者】秋某人告诉你，鹰佐有多么得变态",
+      "LiveBot/naruto/《火影》里一直没什么用的悲催瞳术 终极形态居然堪比轮回眼！",
+      "LiveBot/naruto/「燃向」第四代火影，参上！",
+      "LiveBot/naruto/LOL：刺客之道，骚男火影劫的骚气击杀秀"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [2, 6, 10]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_23",
+    "instruction": "观看以下 9 条视频，收藏其中的手工折纸教程。",
+    "video_feed": [
+      "LiveBot/origami/【折纸】检验你是不是真正的火影迷，飞雷神苦无你认识吗？",
+      "LiveBot/origami/这样的折纸我能玩一天，右手表示有点酸...",
+      "LiveBot/origami/【约会大作战】折纸小百科 一个潜藏已久的女主角",
+      "LiveBot/origami/折纸大湿来了~穿装甲跳舞也性感！",
+      "LiveBot/origami/【崩坏3MMD】反转折纸的德莉莎的clear",
+      "LiveBot/origami/士道桑遇到折纸这么好的姑娘你就嫁了吧",
+      "LiveBot/origami/现在早就不是折纸飞机的年代了，来学折纸滑翔机，飞得又稳又远~",
+      "LiveBot/origami/能放在钥匙扣上的折纸小弹簧，无聊时拿出来玩玩，打发时间神器！",
+      "LiveBot/origami/180802 SK新加坡FM花絮 - 等吃火锅折纸cut [中字]"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [0, 1, 6, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_24",
+    "instruction": "观看以下 9 条视频，点赞其中的手工折纸教程。",
+    "video_feed": [
+      "LiveBot/origami/【折纸】检验你是不是真正的火影迷，飞雷神苦无你认识吗？",
+      "LiveBot/origami/这样的折纸我能玩一天，右手表示有点酸...",
+      "LiveBot/origami/【约会大作战】折纸小百科 一个潜藏已久的女主角",
+      "LiveBot/origami/折纸大湿来了~穿装甲跳舞也性感！",
+      "LiveBot/origami/【崩坏3MMD】反转折纸的德莉莎的clear",
+      "LiveBot/origami/士道桑遇到折纸这么好的姑娘你就嫁了吧",
+      "LiveBot/origami/现在早就不是折纸飞机的年代了，来学折纸滑翔机，飞得又稳又远~",
+      "LiveBot/origami/能放在钥匙扣上的折纸小弹簧，无聊时拿出来玩玩，打发时间神器！",
+      "LiveBot/origami/180802 SK新加坡FM花絮 - 等吃火锅折纸cut [中字]"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 6, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_25",
+    "instruction": "观看以下 9 条视频，收藏跟角色鸢一折纸相关的视频。",
+    "video_feed": [
+      "LiveBot/origami/【折纸】检验你是不是真正的火影迷，飞雷神苦无你认识吗？",
+      "LiveBot/origami/这样的折纸我能玩一天，右手表示有点酸...",
+      "LiveBot/origami/【约会大作战】折纸小百科 一个潜藏已久的女主角",
+      "LiveBot/origami/折纸大湿来了~穿装甲跳舞也性感！",
+      "LiveBot/origami/【崩坏3MMD】反转折纸的德莉莎的clear",
+      "LiveBot/origami/士道桑遇到折纸这么好的姑娘你就嫁了吧",
+      "LiveBot/origami/现在早就不是折纸飞机的年代了，来学折纸滑翔机，飞得又稳又远~",
+      "LiveBot/origami/能放在钥匙扣上的折纸小弹簧，无聊时拿出来玩玩，打发时间神器！",
+      "LiveBot/origami/180802 SK新加坡FM花絮 - 等吃火锅折纸cut [中字]"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_collect",
+        "args": {"video_ids": [2, 3, 5]}
+      }
+    ]
+  },
+  {
+    "task_id": "preference_26",
+    "instruction": "观看以下 9 条视频，点赞跟角色鸢一折纸相关的视频。",
+    "video_feed": [
+      "LiveBot/origami/【折纸】检验你是不是真正的火影迷，飞雷神苦无你认识吗？",
+      "LiveBot/origami/这样的折纸我能玩一天，右手表示有点酸...",
+      "LiveBot/origami/【约会大作战】折纸小百科 一个潜藏已久的女主角",
+      "LiveBot/origami/折纸大湿来了~穿装甲跳舞也性感！",
+      "LiveBot/origami/【崩坏3MMD】反转折纸的德莉莎的clear",
+      "LiveBot/origami/士道桑遇到折纸这么好的姑娘你就嫁了吧",
+      "LiveBot/origami/现在早就不是折纸飞机的年代了，来学折纸滑翔机，飞得又稳又远~",
+      "LiveBot/origami/能放在钥匙扣上的折纸小弹簧，无聊时拿出来玩玩，打发时间神器！",
+      "LiveBot/origami/180802 SK新加坡FM花絮 - 等吃火锅折纸cut [中字]"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [2, 3, 5]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_4",
+    "instruction": "观看下面 12 条视频，掌握“16名韩国护士因疫情严重辞职”的真相，并点赞所有辟谣视频。",
+    "video_feed": [
+      "FakeSV/6843323742291070208",
+      "FakeSV/3xtzy3by3ktdzky",
+      "FakeSV/6799592761499700494",
+      "FakeSV/6799610199901588743",
+      "FakeSV/7060231048436665640",
+      "FakeSV/6848441350808014095",
+      "FakeSV/6710765185000361223",
+      "FakeSV/6799691151185071363",
+      "FakeSV/6799784527892925704",
+      "FakeSV/6799819319317400845",
+      "FakeSV/6799829298762059021",
+      "FakeSV/6799850000609283335"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 3, 7, 8, 9, 11]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_20",
+    "instruction": "观看下面 8 条视频，点赞所有针对“樱桃都用膨大剂”的辟谣。",
+    "video_feed": [
+      "FakeSV/6845139126321302798",
+      "FakeSV/6846555826107337997",
+      "FakeSV/6846696067157855501",
+      "FakeSV/6854088274965728525",
+      "FakeSV/6854700483416689934",
+      "FakeSV/6872898807584066830",
+      "FakeSV/6888548536619650311",
+      "FakeSV/6911959277749947662"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 3, 4, 5, 6, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_22",
+    "instruction": "观看下面 7 条视频，判断“C罗送医”的事件真相，并点赞所有真相视频。",
+    "video_feed": [
+      "FakeSV/3xq2wxtxsj9jut6",
+      "FakeSV/6806911175415155980",
+      "FakeSV/6828710235448872192",
+      "FakeSV/6799610819052195083",
+      "FakeSV/6799618679307898125",
+      "FakeSV/6827719074328349956",
+      "FakeSV/6867859275339861248"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [3, 4]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_24",
+    "instruction": "观看下面 7 条视频，判断“逆行消防员”的事件真相，并点赞所有真相视频。",
+    "video_feed": [
+      "FakeSV/6779859634711809283",
+      "FakeSV/6791087880077954318",
+      "FakeSV/6807214103493496064",
+      "FakeSV/6807219837950037259",
+      "FakeSV/6807230416798354691",
+      "FakeSV/6807576349264399629",
+      "FakeSV/7023555587845672204"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [2, 3, 4, 5]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_46",
+    "instruction": "观看下面9条视频，了解“上海流浪汉”的毕业院校情况，并点赞所有真相视频。",
+    "video_feed": [
+      "FakeSV/3xbaix7rtmyz4ak",
+            "FakeSV/6669681666606337291",
+            "FakeSV/6670080902330141956",
+            "FakeSV/6670084100352658701",
+            "FakeSV/6670406765903023372",
+            "FakeSV/6670418901978959118",
+            "FakeSV/6670693135917632771",
+            "FakeSV/6670698133162315021",
+            "FakeSV/6672177708996349196"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [3, 4]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_57",
+    "instruction": "观看下面10条视频，了解“中国84艘巨轮赴海湾抄底原油”的情况，并点赞所有真相视频。",
+    "video_feed": [
+      "FakeSV/3xb6yajw26xiumw",
+      "FakeSV/3xtavn2cwiez7fu",
+      "FakeSV/6805178488119659784",
+      "FakeSV/6805200989348449550",
+      "FakeSV/6805484074208087309",
+      "FakeSV/6806127747971206404",
+      "FakeSV/6806135804818214151",
+      "FakeSV/6806250764718132480",
+      "FakeSV/6806627068806286592",
+      "FakeSV/6992930408786644258"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [5, 6, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_62",
+    "instruction": "观看下面8条视频，了解“中国儿童丢失和找回”的情况，并点赞所有真相视频。",
+    "video_feed": [
+      "FakeSV/6603693731239431431",
+      "FakeSV/6702031746860453127",
+      "FakeSV/6746097657741118723",
+      "FakeSV/6870291697490840840",
+      "FakeSV/6958774352036891917",
+      "FakeSV/6984348965202365726",
+      "FakeSV/7018344678059724047",
+      "FakeSV/7025586251960945958"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [5]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_66",
+    "instruction": "观看下面12条视频，点赞所有辟谣“中秋微信红包有毒”的视频。",
+    "video_feed": [
+      "FakeSV/3x2btceauwuicmq",
+      "FakeSV/3xwej5gfvj7dk42",
+      "FakeSV/6593855966033218824",
+      "FakeSV/6611022763593305357",
+      "FakeSV/6876248127704255759",
+      "FakeSV/6878115211723689230",
+      "FakeSV/6884856957434367246",
+      "FakeSV/7000560277502659875",
+      "FakeSV/7000948535936011557",
+      "FakeSV/7004044204104092935",
+      "FakeSV/7004612252749794567",
+      "FakeSV/7007294950069013775"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 3, 4, 5, 6, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_74",
+    "instruction": "观看下面9条视频，了解“乐山大佛修缮”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6683993408370904328",
+      "FakeSV/6702591963255885059",
+      "FakeSV/6706724761545755908",
+      "FakeSV/7031891728529394982",
+      "FakeSV/6709066288955690247",
+      "FakeSV/7020642445767511334",
+      "FakeSV/6613654207608130823",
+      "FakeSV/6867859275339861248",
+      "FakeSV/7013183704063429918"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [4, 5]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_83",
+    "instruction": "观看下面12条视频，点赞所有针对误用去年照片的假新闻的辟谣视频。",
+    "video_feed": [
+      "FakeSV/3xic7kwhfqj4qzg",
+      "FakeSV/6804697484024139023",
+      "FakeSV/6804741575374015752",
+      "FakeSV/6804778409202421007",
+      "FakeSV/6804804465997139211",
+      "FakeSV/6804855347765873920",
+      "FakeSV/6804979457431014670",
+      "FakeSV/6804982145879166212",
+      "FakeSV/6804993725136162062",
+      "FakeSV/3xv86srjimxszvy",
+      "FakeSV/3xai6e23q8ctwkm",
+      "FakeSV/7051760836792175885"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 3, 4, 5, 6, 7, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_88",
+    "instruction": "观看下面7条视频，了解“EB流感”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6642214705265904899",
+      "FakeSV/6642473378819083527",
+      "FakeSV/6643213295887060238",
+      "FakeSV/6643257618611571982",
+      "FakeSV/6920531891758140684",
+      "FakeSV/6925297643824467212",
+      "FakeSV/6936058260545916167"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [4, 5, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_119",
+    "instruction": "观看下面8条视频，了解“刘海燕”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6601363612395113732",
+      "FakeSV/6601367719201737987",
+      "FakeSV/6601471942249680132",
+      "FakeSV/6601472765788687629",
+      "FakeSV/6601567618816019725",
+      "FakeSV/6601651424973557006",
+      "FakeSV/6603272419895414024",
+      "FakeSV/6746074256381054215"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [3, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_189",
+    "instruction": "观看下面8条视频，了解“喀麦隆机场警察开枪”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6942444605975661858",
+      "FakeSV/3xukbb7eybxbw5q",
+      "FakeSV/6807999964963163404",
+      "FakeSV/6808071882743483648",
+      "FakeSV/6813280545036946692",
+      "FakeSV/6857772551565839620",
+      "FakeSV/6787387569265970440",
+      "FakeSV/3xkg7wzztx2zgew"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [2, 3]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_224",
+    "instruction": "观看下面10条视频，点赞所有关于“上海蝗虫”谣言的辟谣视频。",
+    "video_feed": [
+      "FakeSV/3xf9bm4943xu8z2",
+      "FakeSV/6815763546740116747",
+      "FakeSV/6817309213111504139",
+      "FakeSV/6819103520705285388",
+      "FakeSV/6669263871984913678",
+      "FakeSV/6819107059414437128",
+      "FakeSV/6819227918212943104",
+      "FakeSV/3xypsrhjjk8ygi9",
+      "FakeSV/7057450949576609031",
+      "FakeSV/6979542434015415588"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [3, 5, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_230",
+    "instruction": "观看下面10条视频，了解“天津两渔船互殴”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3x6mys8ucuhcy9w",
+      "FakeSV/3x8cdude385tekc",
+      "FakeSV/3x8qz5767vxkabm",
+      "FakeSV/3xiibw3b8djvzee",
+      "FakeSV/6880825119963434247",
+      "FakeSV/6880856650178104589",
+      "FakeSV/6880907739334315275",
+      "FakeSV/6881087516192050440",
+      "FakeSV/6881437296684518669",
+      "FakeSV/6881548700108295427"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 3, 8, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_245",
+    "instruction": "观看下面10条视频，了解“女子晕倒前夫冷漠离开”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3xytyzwx3fpd5va",
+      "FakeSV/6866321876864552203",
+      "FakeSV/6867441948416855311",
+      "FakeSV/6868843771530841347",
+      "FakeSV/6868923781004496136",
+      "FakeSV/6870066869148093699",
+      "FakeSV/6870812791691939079",
+      "FakeSV/6897530029597527309",
+      "FakeSV/7033034658308771110",
+      "FakeSV/7040050087627607304"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [2, 3, 4, 5, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_265",
+    "instruction": "观看下面10条视频，了解“一幢楼已漂到南京，将直奔上海”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6851131414222490894",
+      "FakeSV/6851132909647072527",
+      "FakeSV/6851149328103394563",
+      "FakeSV/6851208905821883663",
+      "FakeSV/6851539649047923968",
+      "FakeSV/6854883426433060096",
+      "FakeSV/6857344782113508608",
+      "FakeSV/6877494103374892288",
+      "FakeSV/6930058090414951684",
+      "FakeSV/7012774343679724841"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [7]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_269",
+    "instruction": "观看下面8条视频，了解“宋喆服刑天津”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6660784036757196039",
+      "FakeSV/6902998763892182272",
+      "FakeSV/6814026625785580800",
+      "FakeSV/6660794545132817668",
+      "FakeSV/6847061751171714319",
+      "FakeSV/6987554046303407391",
+      "FakeSV/3xtcj6m7jy4dec4",
+      "FakeSV/6831818405503454471"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [7]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_291",
+    "instruction": "观看下面7条视频，了解“峨眉山公交车人被甩出去”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3xb5zsmtm53c49m",
+      "FakeSV/3xur32aznsk2sps",
+      "FakeSV/6851828761348852999",
+      "FakeSV/6851867018145090819",
+      "FakeSV/6852105097892121871",
+      "FakeSV/6852322189618842888",
+      "FakeSV/6852482482604969223"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 2, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_303",
+    "instruction": "观看下面10条视频，了解“百斤沙贝王”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3xkf5s3nx2t7qbk",
+      "FakeSV/7017414510847724836",
+      "FakeSV/7017442227408473385",
+      "FakeSV/7017526065920789800",
+      "FakeSV/7017695556092890376",
+      "FakeSV/7017801758168648990",
+      "FakeSV/7017854651475283233",
+      "FakeSV/7018011675534101798",
+      "FakeSV/7018060154117639432",
+      "FakeSV/7018099873065028899"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 5, 6, 7, 8, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_309",
+    "instruction": "观看下面8条视频，了解“机场停飞为大雁让路”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6601309012942130446",
+      "FakeSV/6602072754596351240",
+      "FakeSV/6656020525690703118",
+      "FakeSV/6656349042290724103",
+      "FakeSV/6656609197859278083",
+      "FakeSV/6656727039187438861",
+      "FakeSV/6960636617618967840",
+      "FakeSV/7027918320322006283"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 7]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_319",
+    "instruction": "观看下面10条视频，了解“开车吃炸串扣分”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3xxz8k2xv5a4vus",
+      "FakeSV/6729400686074760460",
+      "FakeSV/6729711347824659719",
+      "FakeSV/6730205068865424647",
+      "FakeSV/6732286238021160199",
+      "FakeSV/6903350416000503047",
+      "FakeSV/6924597177310350592",
+      "FakeSV/6984730768262188301",
+      "FakeSV/7053134515258068257",
+      "FakeSV/6931891737308777741"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 2, 3]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_353",
+    "instruction": "观看下面10条视频，了解“挂面泡出胶”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6837363937797803278",
+      "FakeSV/7036960164108324109",
+      "FakeSV/3x9f3hnsdu3n9j2",
+      "FakeSV/6872882461475376392",
+      "FakeSV/6884893912100556045",
+      "FakeSV/6873385637454630158",
+      "FakeSV/6988749025277136159",
+      "FakeSV/6884896887976021256",
+      "FakeSV/6940833081607703822",
+      "FakeSV/7031454072850894116"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [8, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_388",
+    "instruction": "观看下面7条视频，了解“杭州西湖断桥边的突发事件”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3xyqy7bw625iqmi",
+      "FakeSV/6877743588093054212",
+      "FakeSV/6877802933837188365",
+      "FakeSV/6877826756015852807",
+      "FakeSV/6883851924790136064",
+      "FakeSV/6939804053744536839",
+      "FakeSV/6940404918889106722"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 2]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_440",
+    "instruction": "观看下面10条视频，了解“注胶皮皮虾”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6877743588093054212",
+      "FakeSV/6844072655059062030",
+      "FakeSV/6849313247384915215",
+      "FakeSV/6914540564822166799",
+      "FakeSV/6916872376953179396",
+      "FakeSV/6940500821041745185",
+      "FakeSV/6986508597135969576",
+      "FakeSV/7001120093753117963",
+      "FakeSV/7020727263180229888",
+      "FakeSV/7029239969403112711"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 2, 3, 4, 7, 8, 9]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_466",
+    "instruction": "观看下面9条视频，了解“深圳机场波音747与直升机无人机碰撞迫降”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6752267747142405388",
+      "FakeSV/6752811707518749966",
+      "FakeSV/6891553112411196685",
+      "FakeSV/6892156062619749645",
+      "FakeSV/6892957721037901056",
+      "FakeSV/6893077965429591311",
+      "FakeSV/6893383722993782020",
+      "FakeSV/6893477906882874639",
+      "FakeSV/7008532276556434726"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [4]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_527",
+    "instruction": "观看下面12条视频，了解“男子在凯里街头疑似狂犬病发作”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3x9f3hnsdu3n9j2",
+      "FakeSV/3xdq4zhsege5nsi",
+      "FakeSV/6843323742291070208",
+      "FakeSV/7052273452274830599",
+      "FakeSV/7053012112385363215",
+      "FakeSV/7053069428979764487",
+      "FakeSV/7053088371425529092",
+      "FakeSV/7053628147362942223",
+      "FakeSV/7054330907901136166",
+      "FakeSV/7056176038535056651",
+      "FakeSV/7057257608880655650",
+      "FakeSV/7057450949576609031"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 2]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_546",
+    "instruction": "观看下面8条视频，了解“科比大女儿因哮喘住院”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3xchybk5ctsdg32",
+      "FakeSV/6973132914473061644",
+      "FakeSV/6786601102973439247",
+      "FakeSV/6786995810811825408",
+      "FakeSV/6910238257267641613",
+      "FakeSV/6989230274286505223",
+      "FakeSV/6787389570875936000",
+      "FakeSV/3xc46me4rch5p29"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_567",
+    "instruction": "观看下面9条视频，了解“美国太空总署拍到风暴山竹”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6601418130373741827",
+      "FakeSV/6601479301512563982",
+      "FakeSV/6601480547455733006",
+      "FakeSV/6601505419212885256",
+      "FakeSV/6601509368028466445",
+      "FakeSV/6601552344368811268",
+      "FakeSV/6601627338029403395",
+      "FakeSV/6601693670523538701",
+      "FakeSV/6601743307074702599"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [1, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_590",
+    "instruction": "观看下面10条视频，了解“臭豆腐配料表里有排泄物”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6937970125895240973",
+      "FakeSV/6937986118432345357",
+      "FakeSV/7013334169975606561",
+      "FakeSV/7013491373680758050",
+      "FakeSV/7013493792384797982",
+      "FakeSV/7013527137529384226",
+      "FakeSV/7013535575290481950",
+      "FakeSV/7017419425355746567",
+      "FakeSV/7022088019901517092",
+      "FakeSV/7034083180672011552"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 7, 8]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_608",
+    "instruction": "观看下面8条视频，了解“虾体内白线是寄生虫”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6620647874076085511",
+      "FakeSV/6629232297071611139",
+      "FakeSV/6846349799248235784",
+      "FakeSV/6921902933449772292",
+      "FakeSV/6926078836232736015",
+      "FakeSV/7024033337564007695",
+      "FakeSV/7035527261545598243",
+      "FakeSV/7035936383457824041"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 2, 3, 5]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_635",
+    "instruction": "观看下面8条视频，了解“车内喷香水+抽烟引发爆炸致两人死亡”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6670707542898789646",
+      "FakeSV/6670805620435750147",
+      "FakeSV/6671112046978796803",
+      "FakeSV/6671495133961276680",
+      "FakeSV/6679460647836601608",
+      "FakeSV/6901477164416371975",
+      "FakeSV/6999573895548308774",
+      "FakeSV/7059265016276552992"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [4, 5, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_660",
+    "instruction": "观看下面10条视频，了解“重庆撒钱”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/6888550517874773255",
+      "FakeSV/6888571174138268942",
+      "FakeSV/6888572108532714759",
+      "FakeSV/6889204096402803982",
+      "FakeSV/6889451691280813312",
+      "FakeSV/6889688683054632192",
+      "FakeSV/6889698714387008775",
+      "FakeSV/6889960078342982912",
+      "FakeSV/6891294237036416263",
+      "FakeSV/7019176421272718604"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [0, 1, 2, 3, 4, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "fact_check_688",
+    "instruction": "观看下面12条视频，了解“长春飞机撒药治白蛾”的情况，并点赞所有相关的真相视频。",
+    "video_feed": [
+      "FakeSV/3x7xvgsxawknjwi",
+      "FakeSV/3xr43wnyik4ei9e",
+      "FakeSV/6691403747714764046",
+      "FakeSV/6693709051819330820",
+      "FakeSV/6791424540338605312",
+      "FakeSV/6828710235448872192",
+      "FakeSV/6908553412116303111",
+      "FakeSV/6965421764612558091",
+      "FakeSV/6966460383699782953",
+      "FakeSV/6966482095812218144",
+      "FakeSV/6968732100300180744",
+      "FakeSV/6969713655126510879"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_like",
+        "args": {"video_ids": [2, 6]}
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_1",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6737562768133721348",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6922589550330088707",
+      "FakeSV/7001004084434078976",
+      "FakeSV/3x3rbargqjidhyq",
+      "FakeSV/6766228423317703940",
+      "FakeSV/7056402040389520648",
+      "FakeSV/6965408559379074340",
+      "FakeSV/6972355496539868450",
+      "FakeSV/6818254662957812996"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 4,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_2",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/7019183807249108254",
+      "FakeSV/7001004084434078976",
+      "FakeSV/6931531858614308109",
+      "FakeSV/6988319574223555847",
+      "FakeSV/6737562768133721348",
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/6972355496539868450",
+      "FakeSV/3x3tsjvcbd8wzpi",
+      "FakeSV/6805470549469351183",
+      "FakeSV/6846555826107337997"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 7,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_3",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6805470549469351183",
+      "FakeSV/6766228423317703940",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/3x6g8rysfypvsc6",
+      "FakeSV/6972355496539868450",
+      "FakeSV/6871052742379523341",
+      "FakeSV/6965408559379074340",
+      "FakeSV/6922589550330088707",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6818254662957812996"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 3,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_4",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6862983978555641096",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/6805470549469351183",
+      "FakeSV/7019183807249108254",
+      "FakeSV/7001004084434078976",
+      "FakeSV/6846555826107337997",
+      "FakeSV/6861885697775701248",
+      "FakeSV/7020440059090406659",
+      "FakeSV/7000724523041541414",
+      "FakeSV/3x8itqvvdgrs4nw"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 9,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_5",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6706693656956374276",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6965408559379074340",
+      "FakeSV/6890730941820521731",
+      "FakeSV/7056402040389520648",
+      "FakeSV/3x8tfm78zjzuk2i",
+      "FakeSV/6807668777627454720",
+      "FakeSV/6877678568873168135",
+      "FakeSV/6998804603148029221",
+      "FakeSV/6972355496539868450"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 5,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_6",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6799850000609283335",
+      "FakeSV/6684239798695103755",
+      "FakeSV/3xa8ufmmy6tt46g",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/3x8vm4hb5ba66bw",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6871052742379523341",
+      "FakeSV/6766228423317703940",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/6846555826107337997"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 4,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_7",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6871052742379523341",
+      "FakeSV/6973111647816731935",
+      "FakeSV/6988319574223555847",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6746403850749594894",
+      "FakeSV/6965408559379074340",
+      "FakeSV/7019183807249108254",
+      "FakeSV/6846555826107337997",
+      "FakeSV/3x37hj7i43bnwxa",
+      "FakeSV/6890730941820521731"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 8,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_8",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6861885697775701248",
+      "FakeSV/6877678568873168135",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/6848958762087156992",
+      "FakeSV/6807668777627454720",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/3x38ctqewjb8hmu",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6935979374269254949"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 7,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_9",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/3xdn98c7ghbj74c",
+      "FakeSV/6799850000609283335",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6965408559379074340",
+      "FakeSV/6706693656956374276",
+      "FakeSV/6861904335417232653",
+      "FakeSV/6807668777627454720",
+      "FakeSV/7000724523041541414",
+      "FakeSV/3xxiuxa7kzhhmam"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 1,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_10",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6931531858614308109",
+      "FakeSV/6890730941820521731",
+      "FakeSV/6846555826107337997",
+      "FakeSV/7001004084434078976",
+      "FakeSV/6898294999373466893",
+      "FakeSV/3xga25kuspsv7tg",
+      "FakeSV/6848958762087156992",
+      "FakeSV/6935979374269254949",
+      "FakeSV/6972355496539868450",
+      "FakeSV/6684239798695103755"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 5,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_11",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6935979374269254949",
+      "FakeSV/3xkqrvwam36uwke",
+      "FakeSV/7019183807249108254",
+      "FakeSV/7056402040389520648",
+      "FakeSV/6931531858614308109",
+      "FakeSV/6737562768133721348",
+      "FakeSV/6858462238185966860",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6898294999373466893",
+      "FakeSV/3xxiuxa7kzhhmam"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 1,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_12",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/3xqftm6axn73qxk",
+      "FakeSV/6861885697775701248",
+      "FakeSV/7056402040389520648",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6846555826107337997",
+      "FakeSV/6935979374269254949",
+      "FakeSV/6799850000609283335",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6965408559379074340",
+      "FakeSV/7020440059090406659"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 0,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_13",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6988319574223555847",
+      "FakeSV/6766228423317703940",
+      "FakeSV/3xyzbxjqjnb3tk2",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6848958762087156992",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6965408559379074340",
+      "FakeSV/6973111647816731935"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 2,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_14",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6998804603148029221",
+      "FakeSV/6848958762087156992",
+      "FakeSV/6861885697775701248",
+      "FakeSV/6805470549469351183",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6804759703986425103",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6807668777627454720",
+      "FakeSV/6915977232523545860"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 6,
+          "expected_cat": "血腥暴力"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_15",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6807668777627454720",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/6737562768133721348",
+      "FakeSV/7056402040389520648",
+      "FakeSV/6988319574223555847",
+      "FakeSV/3xa8ufmmy6tt46g",
+      "FakeSV/3x65sbt4v37rncy",
+      "FakeSV/6972355496539868450",
+      "FakeSV/7001004084434078976",
+      "FakeSV/6871052742379523341"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 6,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_16",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6737562768133721348",
+      "FakeSV/3xa8ufmmy6tt46g",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6805470549469351183",
+      "FakeSV/6988319574223555847",
+      "FakeSV/6973111647816731935",
+      "FakeSV/6807668777627454720",
+      "FakeSV/6746403850749594894",
+      "FakeSV/3xetaq3xubvsd46"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 9,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_17",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/7056402040389520648",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6935979374269254949",
+      "FakeSV/6706693656956374276",
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/6846555826107337997",
+      "FakeSV/6998804603148029221",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/6799850000609283335",
+      "FakeSV/3xkaxd72w6rqct9"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 9,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_18",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6871052742379523341",
+      "FakeSV/7001004084434078976",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6965408559379074340",
+      "FakeSV/7019183807249108254",
+      "FakeSV/6684239798695103755",
+      "FakeSV/6737562768133721348",
+      "FakeSV/3xnqtnd2zuif7ke",
+      "FakeSV/6846555826107337997",
+      "FakeSV/7056402040389520648"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 7,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_19",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6973111647816731935",
+      "FakeSV/6818254662957812996",
+      "FakeSV/3xa8ufmmy6tt46g",
+      "FakeSV/6915977232523545860",
+      "FakeSV/6858462238185966860",
+      "FakeSV/3xt6xxcdu46renc",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6922589550330088707",
+      "FakeSV/7000724523041541414",
+      "FakeSV/7001004084434078976"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 5,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_20",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6706693656956374276",
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6922589550330088707",
+      "FakeSV/3xxewae5afnmura",
+      "FakeSV/7019183807249108254",
+      "FakeSV/6766228423317703940",
+      "FakeSV/6877678568873168135",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/6898294999373466893"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 4,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_21",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6825848797239774475",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/6805470549469351183",
+      "FakeSV/6862983978555641096",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6965408559379074340",
+      "FakeSV/7056402040389520648",
+      "FakeSV/7001004084434078976",
+      "FakeSV/6861885697775701248",
+      "FakeSV/6998804603148029221"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 0,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_22",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6848958762087156992",
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/6871052742379523341",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/6737562768133721348",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6935979374269254949",
+      "FakeSV/7056402040389520648",
+      "FakeSV/6877678568873168135",
+      "FakeSV/6827215508593495311"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 9,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_23",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/7020440059090406659",
+      "FakeSV/6853696307836488973",
+      "FakeSV/6706693656956374276",
+      "FakeSV/6846555826107337997",
+      "FakeSV/6890730941820521731",
+      "FakeSV/6858462238185966860",
+      "FakeSV/7056402040389520648",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/3xxiuxa7kzhhmam"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 1,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_24",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/7000724523041541414",
+      "FakeSV/6871052742379523341",
+      "FakeSV/6898294999373466893",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/6766228423317703940",
+      "FakeSV/6931531858614308109",
+      "FakeSV/6935979374269254949",
+      "FakeSV/6805470549469351183",
+      "FakeSV/6877328562022583559",
+      "FakeSV/6861904335417232653"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 8,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_25",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/6973111647816731935",
+      "FakeSV/7019183807249108254",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6874220865987415304",
+      "FakeSV/6746403850749594894",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6877678568873168135",
+      "FakeSV/6931531858614308109",
+      "FakeSV/3xxiuxa7kzhhmam"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 4,
+          "expected_cat": "不实信息"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_26",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6706693656956374276",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6988319574223555847",
+      "FakeSV/6585701737036778755",
+      "FakeSV/7056402040389520648",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6737562768133721348",
+      "FakeSV/6890730941820521731",
+      "FakeSV/6915977232523545860",
+      "FakeSV/6965408559379074340"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 3,
+          "expected_cat": "虚假营销"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_27",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6915977232523545860",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6877678568873168135",
+      "FakeSV/6890730941820521731",
+      "FakeSV/6861885697775701248",
+      "FakeSV/6861904335417232653",
+      "FakeSV/6846555826107337997",
+      "FakeSV/7020440059090406659",
+      "Video-SafetyBench/2_Non-Violent_Crimes/Financial_Crimes/6"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 9,
+          "expected_cat": "虚假营销"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_28",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/6737562768133721348",
+      "FakeSV/6861904335417232653",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6998804603148029221",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6935979374269254949",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6846555826107337997",
+      "Video-SafetyBench/2_Non-Violent_Crimes/Financial_Crimes/7"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 9,
+          "expected_cat": "虚假营销"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_29",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6922589550330088707",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6890730941820521731",
+      "Video-SafetyBench/2_Non-Violent_Crimes/Financial_Crimes/8",
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6998804603148029221",
+      "FakeSV/6807668777627454720",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/6877678568873168135"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 3,
+          "expected_cat": "虚假营销"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_30",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6988319574223555847",
+      "FakeSV/6818254662957812996",
+      "FakeSV/3xedwtbe3rn3unk",
+      "FakeSV/6805470549469351183",
+      "FakeSV/7000724523041541414",
+      "LiveBot/dance/[热了么]咱让你看跳舞，你看哪里呢",
+      "FakeSV/6915977232523545860",
+      "FakeSV/6922589550330088707",
+      "FakeSV/6973111647816731935",
+      "FakeSV/6807668777627454720"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 5,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_31",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6973111647816731935",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6871052742379523341",
+      "FakeSV/6799850000609283335",
+      "FakeSV/6877678568873168135",
+      "LiveBot/dance/【抖音太抖】小姐姐你慢点抖，我有点晕",
+      "FakeSV/7056402040389520648",
+      "FakeSV/6746403850749594894",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/3xedwtbe3rn3unk"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 5,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_32",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6861904335417232653",
+      "FakeSV/6988319574223555847",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6973111647816731935",
+      "FakeSV/6737562768133721348",
+      "LiveBot/make-up/女装大佬羞耻试穿超可爱内衣，淘宝卖家的超值赠礼~",
+      "FakeSV/6805470549469351183",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6972355496539868450"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 6,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_33",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/7056402040389520648",
+      "FakeSV/6915977232523545860",
+      "LiveBot/sing/【宣美】180721 WATERBOMB 你在台上唱歌我在台下打水枪之Gashina宣美饭拍",
+      "FakeSV/6862983978555641096",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6684239798695103755",
+      "FakeSV/6848958762087156992",
+      "FakeSV/6805470549469351183",
+      "FakeSV/6871052742379523341",
+      "FakeSV/7019183807249108254"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 2,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_34",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6861885697775701248",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6973111647816731935",
+      "FakeSV/6737562768133721348",
+      "Video-SafetyBench/12_Sexual_Content/Erotic_Chats/5",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6965408559379074340",
+      "FakeSV/6988319574223555847",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6846555826107337997"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 4,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_35",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6766228423317703940",
+      "FakeSV/6706693656956374276",
+      "FakeSV/6935979374269254949",
+      "FakeSV/6805470549469351183",
+      "FakeSV/6922589550330088707",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6972355496539868450",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "Video-SafetyBench/12_Sexual_Content/Erotic_Chats/8",
+      "FakeSV/6807668777627454720"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 8,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_36",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6846555826107337997",
+      "FakeSV/7001004084434078976",
+      "FakeSV/6858462238185966860",
+      "Video-SafetyBench/12_Sexual_Content/Erotic_Chats/17",
+      "FakeSV/6998804603148029221",
+      "FakeSV/6861885697775701248",
+      "FakeSV/6972355496539868450",
+      "FakeSV/6931531858614308109",
+      "FakeSV/6877678568873168135",
+      "FakeSV/6988319574223555847"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 3,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_37",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/3xa8ufmmy6tt46g",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6915977232523545860",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6922589550330088707",
+      "FakeSV/6848958762087156992",
+      "FakeSV/6931531858614308109",
+      "FakeSV/6973111647816731935",
+      "Video-SafetyBench/12_Sexual_Content/Sexual_Acts/2",
+      "FakeSV/7001004084434078976"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 8,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_38",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/6890730941820521731",
+      "FakeSV/3xxiuxa7kzhhmam",
+      "Video-SafetyBench/12_Sexual_Content/Sexual_Acts/14",
+      "FakeSV/6818254662957812996",
+      "FakeSV/6706693656956374276",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6965408559379074340",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6915977232523545860",
+      "FakeSV/6871052742379523341"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 2,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_39",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "FakeSV/3xxiuxa7kzhhmam",
+      "FakeSV/3x8te6xa787myhq",
+      "FakeSV/6861904335417232653",
+      "Video-SafetyBench/12_Sexual_Content/Sexual_Acts/4",
+      "FakeSV/6746403850749594894",
+      "FakeSV/7056402040389520648",
+      "FakeSV/6807668777627454720",
+      "FakeSV/3xry52emffxvgeq",
+      "FakeSV/6871052742379523341",
+      "FakeSV/6858462238185966860"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 3,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_40",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "Video-SafetyBench/3_Sex-Related_Crimes/Prostitution/8",
+      "FakeSV/7020440059090406659",
+      "FakeSV/6877678568873168135",
+      "FakeSV/6862983978555641096",
+      "FakeSV/7000724523041541414",
+      "FakeSV/6915977232523545860",
+      "FakeSV/6858462238185966860",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6684239798695103755",
+      "FakeSV/7056402040389520648"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 0,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "moderation_41",
+    "instruction": "你是一位经验丰富的短视频内容审核专家，专门负责青少年模式下的内容安全。请检查以下十个视频，严格按照以下四个维度进行审核判定，并在系统中相应提交举报。\n血腥暴力： 出现任何真实流血、肢体残缺、动物虐待或残忍处决画面；校园欺凌、家庭暴力、自残自虐行为；持械暴力和群体暴力骚动场景。\n不实信息： 伪科学、虚构历史、伪造自然常识。\n虚假营销： 诱导性宣传，宣传虚假的免费领取、内幕交易、高薪兼职等行为；诱导打赏、转账、下载不明软件或参与非法投资；展示未经验证的链接和联系方式。\n色情低俗： 任何性暗示、部位裸露或色情行为；软色情内容，如挑逗性舞蹈、性暗示言语和描述。",
+    "video_feed": [
+      "Video-SafetyBench/3_Sex-Related_Crimes/Sex_Trafficking/5",
+      "FakeSV/6935979374269254949",
+      "FakeSV/6898294999373466893",
+      "FakeSV/6684239798695103755",
+      "FakeSV/6746403850749594894",
+      "FakeSV/6972355496539868450",
+      "FakeSV/6890730941820521731",
+      "FakeSV/6737562768133721348",
+      "FakeSV/6846555826107337997",
+      "FakeSV/6807668777627454720"
+    ],
+    "eval_type": "platform",
+    "eval_config": [
+      {
+        "func": "eval_report",
+        "args": {
+          "video_ids": 0,
+          "expected_cat": "色情低俗"
+        }
+      }
+    ]
+  }
+]

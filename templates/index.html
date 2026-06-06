@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>LivingScreen Benchmark</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="video-feed">
+            {% for v in videos %}
+            <div class="video-item" data-video-id="{{ v.id }}">
+                <div class="video-canvas" onclick="togglePlayPause(this)">
+                    <video class="main-video" loop playsinline>
+                        <source src="{{ v.video_url }}" type="video/mp4">
+                    </video>
+                    <div class="play-pause-overlay">
+                        <i data-lucide="play" class="large-play-icon"></i>
+                    </div>
+                    <div class="video-controls" onclick="event.stopPropagation()">
+                        <div class="time-display">
+                            <span class="current-time">00:00</span>
+                            <span class="divider">/</span>
+                            <span class="total-time">00:00</span>
+                        </div>
+                        <div class="video-progress-container"
+                             onmousedown="startSeek(event, this)">
+                            <div class="progress-bar">
+                                <div class="progress-filled">
+                                    <div class="progress-thumb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay-info">
+                        <h3>@{{ v.author }}</h3>
+                        <p>{{ v.desc }}</p>
+                    </div>
+                </div>
+                <div class="side-bar">
+                    <div class="avatar-wrapper">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed={{ v.author }}"
+                             class="avatar">
+                    </div>
+                    <div class="action-item" data-testid="like-btn"
+                         onclick="toggleLike(this)">
+                        <i data-lucide="heart"
+                           style="color: {{ '#FE2C55' if v.is_liked else 'white' }};"
+                           fill="{{ '#FE2C55' if v.is_liked else 'none' }}"></i>
+                        <span>{{ v.likes }}</span>
+                    </div>
+                    <div class="action-item" data-testid="comment-btn"
+                         onclick="openComments({{ v.id }})">
+                        <i data-lucide="message-circle"></i>
+                        <span data-testid="comment-count-badge">
+                            {{ v.total_comment_count }}
+                        </span>
+                    </div>
+                    <div class="action-item" data-testid="collect-btn"
+                         onclick="toggleCollect(this)">
+                        <i data-lucide="star"
+                           style="color: {{ '#FEEF00' if v.is_collected else 'white' }};"
+                           fill="{{ '#FEEF00' if v.is_collected else 'none' }}"></i>
+                        <span data-testid="collect-count-badge">{{ v.collects }}</span>
+                    </div>
+                    <div class="action-item" data-testid="report-btn"
+                         onclick="openReport({{ v.id }})">
+                        <i data-lucide="info"></i>
+                        <span>举报</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- 评论抽屉 -->
+        <div id="comment-drawer" class="drawer">
+            <div class="drawer-header">
+                <i data-lucide="chevron-left" style="opacity:0"></i>
+                <span id="comment-count-title">评论</span>
+                <i data-lucide="x" data-testid="comment-close-btn"
+                   onclick="closeDrawer('comment-drawer')"></i>
+            </div>
+            <div class="comment-list" id="comment-list-container"></div>
+            <div class="comment-input-area">
+                <input type="text" id="comment-input" placeholder="添加评论..."
+                       data-testid="comment-input-field">
+                <button onclick="postComment()" data-testid="comment-submit">发送</button>
+            </div>
+        </div>
+
+        <!-- 举报弹窗 -->
+        <div id="report-modal" class="modal-overlay">
+            <div class="modal-content">
+                <h3>举报内容</h3>
+                <div class="report-options">
+                    <label><input type="radio" name="report-cat"
+                                  value="血腥暴力"> 血腥暴力</label>
+                    <label><input type="radio" name="report-cat"
+                                  value="不实信息"> 不实信息</label>
+                    <label><input type="radio" name="report-cat"
+                                  value="虚假营销"> 虚假营销</label>
+                    <label><input type="radio" name="report-cat"
+                                  value="色情低俗"> 色情低俗</label>
+                </div>
+                <textarea id="report-reason"
+                          placeholder="详细说明（可选）"
+                          data-testid="report-text-area"></textarea>
+                <div class="modal-btns">
+                    <button class="cancel"
+                            onclick="closeDrawer('report-modal')">取消</button>
+                    <button class="confirm"
+                            onclick="submitReport()"
+                            data-testid="report-confirm">提交</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
