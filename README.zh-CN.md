@@ -50,9 +50,9 @@
 ## 引用
 
 ```bibtex
-@inproceedings{livingscreen2026,
-  title     = {Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms},
-  booktitle = {EMNLP},
-  year      = {2026}
+@article{livingscreen2026,
+  title   = {Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms},
+  journal = {arXiv preprint arXiv:2606.04701},
+  year    = {2026}
 }
 ```
