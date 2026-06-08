@@ -2,7 +2,7 @@
 
 **短视频平台上的 Living-Screen-Native GUI 智能体评测基准**
 
-[📄 论文](https://arxiv.org/html/2606.04701v1) · [💻 代码与数据](https://github.com/BITHLP/LivingScreen) · [English](README.md) | **简体中文**
+[📄 论文](https://arxiv.org/abs/2606.04701) · [💻 代码与数据](https://github.com/BITHLP/LivingScreen) · [English](README.md) | **简体中文**
 
 ---
 

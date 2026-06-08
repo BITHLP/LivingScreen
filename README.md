@@ -2,7 +2,7 @@
 
 **Benchmarking Living-Screen-Native GUI Agents on Short-Video Platforms**
 
-[📄 Paper](https://arxiv.org/html/2606.04701v1) · [💻 Code & Data](https://github.com/BITHLP/LivingScreen) · **English** | [简体中文](README.zh-CN.md)
+[📄 Paper](https://arxiv.org/abs/2606.04701) · [💻 Code & Data](https://github.com/BITHLP/LivingScreen) · **English** | [简体中文](README.zh-CN.md)
 
 ---
 
