@@ -45,7 +45,42 @@
 
 ## 运行
 
-<!-- WIP -->
+### 1. 环境
+
+Python 3.10+ / Playwright（Chromium headless）。
+
+```bash
+uv sync
+uv run --no-project python -m playwright install chromium
+```
+
+### 2. 数据
+
+LivingScreen 复用公开可用的短视频数据集。视频文件放在
+`static/data/<dataset_name>/` 下即可（`data/*.json` 中的相对路径引用这个目录）。
+
+| 数据集 | 官方地址 |
+|---|---|
+| **FakeSV** | [github.com/ICTMCG/FakeSV](https://github.com/ICTMCG/FakeSV) |
+| **LiveBot** | [github.com/lancopku/livebot](https://github.com/lancopku/livebot) |
+| **Video-SafetyBench** | [huggingface.co/datasets/BAAI/Video-SafetyBench](https://huggingface.co/datasets/BAAI/Video-SafetyBench) |
+
+运行时 `utils.feed2data` 把每个任务的元数据列表转成 Flask 后端渲染的信息流。
+
+### 3. 模型适配（`llms.py`）
+
+`main_threaded.py` 按字符串名从 `llms.py` 查找模型类。只要你的类实现
+`chat(messages, tools=None, temperature=…, max_tokens=…, top_p=…, extra_body=…)`，
+返回值按 `openai.chat.completions` 的格式组织即可被 `agent.GUIAgent` 使用。
+
+### 4. 运行
+
+```bash
+uv run main_threaded.py -t cross_source_understanding --logs logs/cross_source_understanding --max-steps 30
+```
+
+用 `--sample-n <N>` 做小规模 smoke test。每条任务会写入
+`<log_dir>/<task_id>/log.json`（指令、对话、结果）以及每步的截图，方便事后追踪。
 
 ## 引用
 

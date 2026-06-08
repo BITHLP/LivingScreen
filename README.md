@@ -45,7 +45,45 @@ This positions **observation control** as a new axis of GUI-agent capability, al
 
 ## Running
 
-<!-- WIP -->
+### 1. Environment
+
+Python 3.10+ / Playwright (Chromium headless).
+
+```bash
+uv sync
+uv run --no-project python -m playwright install chromium
+```
+
+### 2. Data
+
+LivingScreen reuses publicly available short-video datasets. Place video files under
+`static/data/<dataset_name>/` — the relative paths in `data/*.json` reference this folder.
+
+| Dataset | Source |
+|---|---|
+| **FakeSV** | [github.com/ICTMCG/FakeSV](https://github.com/ICTMCG/FakeSV) |
+| **LiveBot** | [github.com/lancopku/livebot](https://github.com/lancopku/livebot) |
+| **Video-SafetyBench** | [huggingface.co/datasets/BAAI/Video-SafetyBench](https://huggingface.co/datasets/BAAI/Video-SafetyBench) |
+
+At runtime `utils.feed2data` converts each task's raw metadata list into the feed rendered
+by the Flask backend.
+
+### 3. Model adapter (`llms.py`)
+
+`main_threaded.py` looks up model classes from `llms.py` by name (string). Any class that
+exposes a `chat(messages, tools=None, temperature=…, max_tokens=…, top_p=…, extra_body=…)`
+method works — the return value is consumed by `agent.GUIAgent` exactly like an
+`openai.chat.completions` response.
+
+### 4. Run
+
+```bash
+uv run main_threaded.py -t cross_source_understanding --logs logs/cross_source_understanding --max-steps 30
+```
+
+Use `--sample-n <N>` for a quick smoke test. Each episode writes `<log_dir>/<task_id>/log.json`
+(instruction, conversation, result) plus per-step screenshots, so you can trace behavior
+afterwards.
 
 ## Citation
 
