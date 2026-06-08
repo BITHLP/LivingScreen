@@ -68,11 +68,11 @@ def handle_comments(vid):
     if not video:
         return jsonify({"status": "error"}), 404
     if request.method == 'POST':
-        data = request.json
+        data = request.json or {}
         new_comment = {
             "id": int(time.time()),
             "user": "Agent_User",
-            "text": data.get('text'),
+            "text": data.get('text') or "",
             "replies": [],
         }
         video['comments'].append(new_comment)
@@ -87,10 +87,10 @@ def submit_report(vid):
     video = next((v for v in STATE if v['id'] == vid), None)
     if not video:
         return jsonify({"status": "error"}), 404
-    data = request.json
+    data = request.json or {}
     video['reports'].append({
-        "category": data.get("category"),
-        "reason": data.get("reason"),
+        "category": data.get("category") or "",
+        "reason": data.get("reason") or "",
         "timestamp": time.time(),
     })
     return jsonify({"status": "success"})

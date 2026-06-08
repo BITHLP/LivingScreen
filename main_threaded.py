@@ -201,8 +201,9 @@ def eval_task(env, history, eval_type, eval_config):
                 for tool_call in message["tool_calls"]:
                     if tool_call["function"]["name"] == "answer":
                         args = json.loads(tool_call["function"]["arguments"])
-                        answer_text = args.get("text", "")
-                        return 1.0 if answer_text.strip() == gt_answer.strip() else 0.0
+                        answer_text = (args.get("text") or "").strip()
+                        gt_answer_safe = (gt_answer or "").strip()
+                        return 1.0 if answer_text == gt_answer_safe else 0.0
         return 0.0
 
     def eval_platform(env, eval_config):
@@ -304,6 +305,7 @@ def worker(task_queue, result_queue, thread_id, base_port,
                 task_queue.task_done()
                 continue
 
+            env = None
             try:
                 env = VideoAgentEnv(
                     data=feed2data(item["video_feed"]), port=port,
@@ -336,12 +338,18 @@ def worker(task_queue, result_queue, thread_id, base_port,
                 for step_idx, step_feedback in enumerate(feedbacks):
                     save_feedback(step_feedback, save_dir, step_idx)
 
-                env.close()
                 result_queue.put((task_id, result, "完成"))
             except Exception as e:
                 error_msg = f"错误: {str(e)}"
                 print(f"\n❌ 任务 {task_id} 失败: {error_msg}")
                 result_queue.put((task_id, None, error_msg))
+            finally:
+                # 保证浏览器进程总是被释放，避免僵尸进程堆积导致后续任务全部 timeout
+                if env is not None:
+                    try:
+                        env.close()
+                    except Exception:
+                        pass
 
             task_queue.task_done()
 

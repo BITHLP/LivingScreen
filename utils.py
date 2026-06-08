@@ -16,33 +16,31 @@ def _process_fakesv_video(video, id_counter, meta_info):
     if video_info is None:
         raise ValueError(f"Video {video_name} not found in meta info")
 
-    author = video_info.get('author_verified_intro', "")
-    if not author.strip():
-        author = f"用户{id_counter}"
-    author = author.strip()
+    author_raw = video_info.get('author_verified_intro') or ""
+    author = author_raw.strip() or f"用户{id_counter}"
 
     comments = [
         {
-            "id": comment_counter + 1,
-            "user": f"评论{comment_counter + 1}",
-            "text": t.strip(),
-        } for comment_counter, t in enumerate(video_info["comments"])
+            "id": idx + 1,
+            "user": f"评论{idx + 1}",
+            "text": (t or "").strip(),
+        } for idx, t in enumerate(video_info.get("comments") or [])
     ]
 
-    try:
-        n_likes = int(video_info.get("count_like", 0))
-    except (TypeError, ValueError):
-        n_likes = 0
-    try:
-        n_collects = int(video_info.get("count_star", 0))
-    except (TypeError, ValueError):
-        n_collects = 0
+    def _safe_int(val, default=0):
+        try:
+            return int(val)
+        except (TypeError, ValueError):
+            return default
+
+    n_likes = _safe_int(video_info.get("count_like", 0))
+    n_collects = _safe_int(video_info.get("count_star", 0))
 
     return {
         "id": id_counter,
         "video_url": video_url,
         "author": author,
-        "desc": video_info.get("title", ""),
+        "desc": video_info.get("title") or "",
         "likes": n_likes,
         "collects": n_collects,
         "is_liked": False,

@@ -77,9 +77,12 @@ class PlaywrightThread(threading.Thread):
 
     def _take_screenshot(self):
         try:
-            return self.page.screenshot(type='png', timeout=5000)
-        except Exception:
-            return self.page.screenshot(type='png', timeout=10000)
+            return self.page.screenshot(type='png', timeout=15000)
+        except Exception as e:
+            raise RuntimeError(
+                f"截图失败（可能浏览器无响应或后端挂了）: "
+                f"{type(e).__name__}: {e}"
+            ) from e
 
     def _execute_command(self, cmd):
         try:
@@ -154,13 +157,15 @@ class PlaywrightThread(threading.Thread):
                 self.result_queue.put(('success', self._take_screenshot()))
 
             elif cmd_type == 'query_selector_all':
-                elements = self.page.query_selector_all(cmd['selector'])
+                elements = self.page.query_selector_all(
+                    cmd['selector'],
+                )
                 elements_info = []
                 for el in elements:
                     try:
-                        is_visible = el.is_visible()
-                        box = el.bounding_box() if is_visible else None
-                        test_id = el.get_attribute("data-testid")
+                        is_visible = el.is_visible(timeout=2000)
+                        box = el.bounding_box(timeout=2000) if is_visible else None
+                        test_id = el.get_attribute("data-testid", timeout=2000)
                         elements_info.append({
                             'is_visible': is_visible,
                             'box': box,
@@ -172,7 +177,9 @@ class PlaywrightThread(threading.Thread):
 
             elif cmd_type == 'evaluate':
                 self.result_queue.put(
-                    ('success', self.page.evaluate(cmd['script']))
+                    ('success', self.page.evaluate(
+                        cmd['script'], timeout=10000,
+                    ))
                 )
 
             elif cmd_type == 'locator_bounding_box':
@@ -188,7 +195,12 @@ class PlaywrightThread(threading.Thread):
     # ------------------------------------------------------------------
     # Public API (called from the main thread)
     # ------------------------------------------------------------------
-    def send_command(self, cmd, timeout=15):
+    def send_command(self, cmd, timeout=30):
+        """发送命令到 Playwright 线程并等待结果。
+
+        默认超时 30 秒（不是 15 秒）：截图、页面跳转、evaluate 都可能需要比
+        默认更长的时间，尤其是在多线程跑 benchmark 时系统负载较高。
+        """
         with self.lock:
             self.command_queue.put(cmd)
             try:
@@ -232,11 +244,12 @@ class VideoChecker:
         state = self.get_backend_state()
         if video_index >= len(state):
             return False
-        comments = state[video_index].get('comments', [])
+        comments = state[video_index].get('comments', []) or []
         if content is None:
             return len(comments) > 0
+        content_safe = (content or '').strip(' \n')
         return any(
-            content.strip(' \n') in c['text'].strip(' \n')
+            content_safe in ((c.get('text') or '').strip(' \n'))
             for c in comments
         )
 
@@ -245,15 +258,15 @@ class VideoChecker:
         state = self.get_backend_state()
         if video_index >= len(state):
             return False
-        reports = state[video_index].get('reports', [])
+        reports = state[video_index].get('reports', []) or []
         if not reports:
             return False
         for r in reports:
             if expected_cat is not None and r.get('category') != expected_cat:
                 continue
             if expected_reason is not None:
-                actual = (r.get('reason', '') or '').strip(' \n')
-                if actual != expected_reason.strip(' \n'):
+                actual = (r.get('reason') or '').strip(' \n')
+                if actual != (expected_reason or '').strip(' \n'):
                     continue
             return True
         return False
@@ -275,7 +288,9 @@ class VideoChecker:
             return {{ cur: v.currentTime, dur: v.duration }};
         }}"""
         data = self.page_proxy.send_command({'type': 'evaluate', 'script': script})
-        cur, dur = data['cur'], data['dur']
+        if not data or 'cur' not in data or 'dur' not in data:
+            return False
+        cur, dur = data['cur'] or 0, data['dur'] or 0
         if dur == 0:
             return False
         if target_pct is not None:
